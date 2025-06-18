@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="test.css">
+<!--
+<style>
+    .name{
+        color: white;
+        background-color: black;
+    }
+
+    #btn{
+        width: 20px;
+        height: 20px;
+        border: none;
+        border-radius: 29;
+        background: #fa1;
+        cursor: pointer;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        display: none;
+        
+    }
+</style>-->
+
+    <title>Document</title>
+</head>
+<body>
+   
+
+
+  <!--
+<input type="number" placeholder="USD" id="dolar">
+<input type="number" placeholder="LEB" id="lira">-->
+
+
+
+
+<!--
+<button id="after" >after</button>
+<button id="before" >before</button>
+<button id="inside" >inside</button>
+
+<p id="content">content</p>
+
+<div id="container">
+
+
+</div>-->
+
+
+
+<!--
+<p id="hello">hello</p>-->
+
+
+ 
+
+
+<!--navbar
+<button id="open" class="hide">open</button>
+<button id="close">close</button>
+<div class="countainer">
+<p>home</p>
+<p>courses</p>
+<p>news</p>
+<p>problem solving</p>
+<p>quizes</p>
+<p>blogs</p>
+<p>chats</p>
+
+</div>-->
+
+
+<!--Auto event
+<input type="text" id="txt" placeholder="input">
+<button id="btn">click</button>-->
+
+
+<!--Scroll
+<div class="gallary">
+
+    <div class="photo">
+        <img onclick="main.src=this.src" src="Screenshot 2024-08-04 152903.png" alt="...">
+        <img onclick="main.src=this.src" src="Screenshot 2025-01-07 192514.png" alt="...">
+        <img onclick="main.src=this.src" src="Screenshot 2025-02-19 121251.png" alt="...">
+        <img onclick="main.src=this.src" src="Screenshot 2025-02-19 141314.png" alt="...">
+
+    </div>
+
+    <div class="main">
+
+        <img src="Screenshot 2024-08-04 152903.png" name="main" alt="...">
+    </div>
+
+    <div class="photo">
+        <img onmouseenter="main.src=this.src" src="Screenshot 2024-08-04 152903.png" alt="...">
+        <img onmouseenter="main.src=this.src" src="Screenshot 2025-01-07 192514.png" alt="...">
+        <img onmouseenter="main.src=this.src" src="Screenshot 2025-02-19 121251.png" alt="...">
+        <img onmouseenter="main.src=this.src" src="Screenshot 2025-02-19 141314.png" alt="...">
+
+    </div>
+</div>-->
+
+
+<!---up
+<button id="btn">^</button>-->
+
+<!--local and session storge
+<input type="text" id="text" placeholder="texxxxt">-->
+<!--
+<div onclick="setcolor(this.id)" id="red" class="red"></div>
+<div onclick="setcolor(this.id)" id="black" class="black"></div>
+<div onclick="setcolor(this.id)" id="blue"class="blue"></div>
+<div onclick="setcolor(this.id)" id="green" class="green"></div>-->
+
+
+<div class="crud">
+
+<div class="head">
+    <h2>CRUDS</h2>
+    <p>PRODUCT MANGMENT SYSTEM</p>
+</div>
+<div class="inputs">
+<input placeholder="tittle" type="text" id="tittle">
+<div class="price">
+    <input onkeyup="getTotal()" type="number" id="price" placeholder="price">
+    <input onkeyup="getTotal()" type="number" id="texes" placeholder="texes">
+    <input onkeyup="getTotal()" type="number" id="ads" placeholder="ads">
+    <input onkeyup="getTotal()" type="number" id="discount" placeholder="discount">
+    <small id="total"></small>
+</div>
+
+<input type="number" id="count" placeholder="count">
+<input type="text" id="category" placeholder="category">
+<button id="submit">Creat</button>
+</div>
+
+
+
+
+
+<div class="outputs">
+
+<div class="searchBlock">
+
+    <input  onkeyup="searchData(this.value)" type="text" id="search" placeholder="Search">
+    <div class="btnSearch">
+        <button onclick=" getSearchMood(this.id)" id="searchTittle">Search By Tittle</button>
+        <button onclick=" getSearchMood(this.id)" id="searchCategory">Search By Category</button>
+
+    </div>
+
+
+</div>
+
+<div id="deleteAll">
+
+</div>
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>title</th>
+        <th>price</th>
+        <th>taxes</th>
+        <th>ads</th>
+        <th>discount</th>
+        <th>total</th>
+        <th>category</th>
+        <th>update</th>
+        <th>delete</th>
+        
+    </tr>
+    <tbody id="tbody">
+       
+
+    </tbody>
+</table>
+
+
+   </div>
+</div>
+
+
+<script src="test.js"></script>
+</body>
+</html>
